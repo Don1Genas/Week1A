@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    
+}
+body::before {
+    content: "";
+    background-image: url("https://previews.123rf.com/images/ammentorp/ammentorp1708/ammentorp170800033/83771971-black-guy-using-digital-camera-on-beach-afro-american-man-taking-pictures-on-the-seashore-.jpg?fj=1");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    line-height: 0.9;
+    font-family: fantasy;
+    left: 50px;
+    
+    
+}
+.about {
+    font-size: 2em;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+.contact1 {
+    font-size: 2em;
+}
+.weddingRing{
+    position: relative;
+    font-size: 2em;
+    top: 300px;
+    right: 400px;
+}
+.hands {
+    border-radius: 50%;
+}
+.realtyIcon {
+    position: relative;
+    font-size: 2em;
+    top: 600px;
+    right: 400px;
+}
+.laptop {
+    border-radius: 50%;
+}
+.portraitIcon {
+    position: relative;
+    font-size: 2em;
+    top: 850px;
+    right: 300px;
+}
+.studio {
+    border-radius: 50%;
+}
